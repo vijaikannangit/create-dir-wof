@@ -15,8 +15,11 @@ Copy Directory Structure Without Files from Source Directory
 #### If already file exists , then system should display message as given below  :- 
 ![file_already_exists](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/30edf06e-be77-4e2c-9fd2-db9234882a3a)
 
-### How to run
-To get this project up and running locally on your computer follow the below steps.
+### How to execute
+
+Execute dir_without_files.yml
+
+## How Yaml file is executed
 
 1. Set up a python environment
 
