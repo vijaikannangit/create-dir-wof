@@ -1,2 +1,2 @@
-# create-dir-wof
-Python – Copy Directory Structure Without Files
+# Python – Copy Directory Structure Without Files
+Copy Directory Structure Without Files from Source Directory
