@@ -1,0 +1,39 @@
+name: Python – Copy Directory Structure Without Files
+run-name: '${{ github.actor }} runs Copy Directory Structure'
+'on':
+  - workflow_dispatch
+jobs:
+  Explore-GitHub-Actions-job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Exp-actions-job1-name1
+        run: 'echo "Automatically triggered by a ${{ github.event_name }} event."'
+        
+      - run: 'echo "Running on a ${{ runner.os }} server hosted by GitHub."'
+
+      - run: 'echo "Repository is ${{ github.repository }}."'
+      
+      - name: Check out repository and Set up Python
+        uses: actions/setup-python@v4
+        with:
+           python-version: '3.10'
+           
+      - run: python create_folders_without_files.py
+
+      - name: Python Pylint Github Actions for Code Analysis
+        run: |
+            python -m pip install --upgrade pip
+            pip install pylint==2.9.6
+            
+      - name: Analysing the code with pylint
+        run: |
+           #find . -name'inventory_demoapp.p' -exec pylint {} \;
+           #find . -name '*.py' -exec pylint {} \;
+           #pylint src/inventory_demoapp.py
+           pylint create_folders_without_files.py
+           #pylint . --reports=y --score n
+           #pylint --version
+                   
+      - run: 'echo "This job status is ${{ job.status }}."'
