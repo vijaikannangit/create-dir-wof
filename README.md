@@ -13,7 +13,7 @@ Copy Directory Structure Without Files from Source Directory
 ![destination_without_Files](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/d7eb82c8-60b3-435e-afce-c123c8be7403)
 
 #### If already file exists , then system should display message as given below  :- 
-![file_already_exists](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/30edf06e-be77-4e2c-9fd2-db9234882a3a)
+![file_already_exists1](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/07743499-a790-4d40-b4fc-ec30a83e1ca1)
 
 ### How to execute
 
