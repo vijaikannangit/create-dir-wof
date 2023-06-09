@@ -3,6 +3,10 @@ Copy Directory Structure Without Files from Source Directory
 
 ### Features
 
+The CLI util can be used to copy the folder structure without files.
+
+This module takes two parameters :-  (src) source folder and (dest) destination folder 
+
 #### Source Directory ( with_files ) with Subfolders and Files displayed below :- 
 ![Source_With_Files1](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/d29a909a-bc7e-482f-b35b-7b8c8d42b2a8)
 
