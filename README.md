@@ -4,13 +4,13 @@ Copy Directory Structure Without Files from Source Directory
 ### Features
 
 #### Source Directory ( with_files ) with Subfolders and Files displayed below :- 
-![Source_With_Files](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/9327239c-cea4-4683-a7f8-fc72e74ade24)
+![Source_With_Files1](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/d29a909a-bc7e-482f-b35b-7b8c8d42b2a8)
 
 #### Accepting Source (with_files) and Destination (without_files) as Input
-![User_input_source_destination](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/8d0d5467-040a-4f90-ac75-ea8fd390b365)
+![User_input_source_destination1](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/8f409ad8-6c00-4fca-98ff-43efc9a7f294)
 
 #### After execution, the destination ( without_files ) containing the Directory Structure without Files given below :- 
-![destination_without_Files](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/d7eb82c8-60b3-435e-afce-c123c8be7403)
+![destination_without_Files1](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/8d682d98-d209-4152-9173-f2c18010ce8e)
 
 #### If already file exists , then system should display message as given below  :- 
 ![file_already_exists1](https://github.com/vijaikannangit/create-dir-wof/assets/128213310/07743499-a790-4d40-b4fc-ec30a83e1ca1)
